@@ -1,0 +1,131 @@
+/* moviezone.css */
+*{
+  margin: 0;
+}
+
+body{
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+  .container .head img {
+    width: 11.7%;
+    margin:-10px 0px;
+   /* background-color: red; */
+  }
+ 
+  .home-image{
+    /* background-color: blue; */
+    background-image: url("assets/moneyheist.jpg");
+    width: 98%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    margin: 0px 10px 35px 10px;  
+    border-radius: 15px;
+    position: relative;
+    filter: brightness();
+
+  }
+
+  .home-image-text{
+    /* background-color: aqua; */
+    color: white;
+    position: relative;
+    width: 30%;
+    top: 13em;
+    left: 3em;
+    z-index: 10;
+  }
+
+  .home-image-text .money{
+    /* background-color: black; */
+    width: 100%;
+    height: auto ;
+    z-index: 10;
+
+  }
+
+  .play-button{
+    text-decoration: none;
+    position: absolute;
+    background-color: rgb(229,9,20);
+    color: black;
+    width: 70px;
+    font-size: 23px;
+    padding: 5px 7px;
+    border-radius: 6px;
+    
+  }
+
+  .play-button img{
+    width: 27px;
+    position: absolute;
+    padding-left: 4px;
+  
+  }
+
+  .play-button:hover{
+    background-color:white;
+    color: black;
+    padding: 6px 7px;
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    transition: 0.1s;  
+    
+
+  }
+
+  .original{
+    color: aliceblue;
+    padding-left: 0px;
+}
+
+.original h3{
+    margin-top: 10px;
+}
+
+.original .no-title{
+    font-size: 20px;
+    padding-left: 10px;
+    color: aliceblue;
+    line-height: 1px;
+    font-weight: 5px;
+    margin: 20px 0px;
+}
+
+.original .no{
+    display: flex;
+    height: 55vh;
+    padding-top: 2px;
+    margin-left: 0px;
+    margin-bottom: -50px;
+    overflow:scroll;
+    overflow-x: visible ;
+}
+
+.original .no img{
+    width: 150px;
+    height: 250px;
+    margin: 3px;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+
+.original .no img:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    transition: 0.1s;
+    filter: brightness(70%);
+
+}
+
+/* html{
+    overflow:scroll;
+   overflow-x: hidden ;
+} */
+
+  ::-webkit-scrollbar{
+      width: 2px;
+  
+      background: transparent;
+  }
