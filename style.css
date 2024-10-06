@@ -153,12 +153,7 @@ body {
   background: linear-gradient(to top, black, transparent);
 }
 
-.style-cards{
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  position: relative;
-}
+
 
 .card-1,
 .card-2,
