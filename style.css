@@ -148,6 +148,7 @@ body {
 .card-3,
 .card-4,
 .card-5{
+  width: 100%;
   background-color: black;
   border-top: 8px solid rgb(34, 34, 34);
   padding: 50px;
@@ -262,8 +263,8 @@ body {
 
 /* .card-2 .downloading {
     background-color: aqua;
-    
-    
+
+
   } */
 
 .card-2 .downloading .small {
@@ -325,7 +326,7 @@ body {
 
 .card-5-desc .mini-cards img{
   width: 50px;
- 
+
 }
 
 
@@ -348,7 +349,7 @@ body {
   border-top: 8px solid rgb(35,35,35);
   padding: 50px;
   font-size: 1.2rem
-} 
+}
 
 .footer_heading{
   font-size: 1.3rem;
@@ -385,4 +386,4 @@ body {
 ::-webkit-scrollbar{
   width: 0px;
   background: transparent;
-}  
+}
